@@ -9,7 +9,7 @@ Based on the Love-OS philosophy:
 $$L = \frac{E}{R}$$
 (Love = Energy / Resistance)
 
-![neural_ode_emotion_sim](./neural_ode_emotion_sim.png)
+![emotion_sim](./emotion_sim.png)
 
 ## The Physics (Internal State)
 The agent holds a state vector $z = [R, L, E, C]$:

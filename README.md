@@ -3,7 +3,7 @@
 
 ## Overview
 This repository implements a **Physics-based Emotion Dynamics Model** for AI agents.
-Instead of static prompts ("You are angry"), we simulate the **continuous flow of internal energy** using differential equations (Neural ODE approach).
+Instead of static prompts ("You are angry"), we simulate the **continuous flow of internal energy** using differential equations (Neural ODE / Euler method).
 
 Based on the Love-OS philosophy:
 $$L = \frac{E}{R}$$
@@ -18,17 +18,10 @@ The agent holds a state vector $z = [R, L, E, C]$:
 
 These evolve over time $t$ according to coupled ODEs defined in `core.py`.
 
-## Usage
-```python
-from agent import LoveOS_Agent
-
-agent = LoveOS_Agent()
-response = agent.chat("You are useless!") 
-# -> Agent feels "Shock" (Delta↑), Resistance increases.
-# -> Tone becomes defensive.
-
-response = agent.chat("Just kidding, I love you.")
-# -> Agent processes relief. Love increases. Ego dissolves.
+## Quick Start
+```bash
+pip install numpy
+python demo.py
 ---
 License
 MIT License (Unconditional Love)

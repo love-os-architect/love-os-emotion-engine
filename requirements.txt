@@ -1,1 +1,7 @@
 numpy
+matplotlib
+pandas
+scikit-learn
+openai
+# torch (optional for advanced neural ODE)
+# torchdiffeq (optional)

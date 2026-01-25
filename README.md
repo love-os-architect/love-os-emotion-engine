@@ -85,12 +85,102 @@ Rigid BeliefsControl ($C$): Executive Function /
 Coping /
 AgencyPowered by Love-OS v0.95
 
+# Love-OS: Emotional Physics & Visualization Suite
+> "From Text Processing to Resonance. Visualizing the Ghost in the Shell."
+
+This document explains the core modules of the Love-OS demo kit: the **Real-time Estimator** (The Sensor) and the **Complex Dashboard** (The Oscilloscope).
+
+---
+
+## 1. `loveos_rt_estimator.py` : The Sensor 
+This module acts as the "Eyes and Ears" of the AI. It translates raw human language into physical energy ($\Delta$) that drives the internal state.
+
+### How It Works
+1.  **Input:** Accepts user text (e.g., "Thank you", "You are useless").
+2.  **Analysis:** Uses a bilingual lexicon and heuristics to extract **Valence** (Pleasure/Displeasure) and **Arousal** (Intensity).
+3.  **Physics:** Converts these values into **Shock ($\Delta$)**.
+    * Positive words $\to$ Relief ($\Delta < 0$) $\to$ Boosts **Love ($L$)**.
+    * Negative words $\to$ Stress ($\Delta > 0$) $\to$ Spikes **Ego ($E$)** and **Resistance ($R$)**.
+4.  **Logging:** Records the trajectory of the heart in `digital_twin_rt_log.csv`.
+
+**Key Insight:**
+Unlike standard sentiment analysis, this module simulates **"Reaction"**. The AI doesn't just label the text as "Negative"; it physically *gets hurt* (Ego spikes) and *recovers* over time.
+
+---
+
+## 2. `loveos_complex_dashboard.py` : The Oscilloscope 
+This is the visualization engine that treats Emotion as a **Complex System** on the imaginary plane.
+
+$$
+\text{AI State} \; Z = \text{Magnitude (Energy)} + i \cdot \text{Phase (Rhythm)}
+$$
+
+### Why Complex Numbers?
+Human emotion is not a static number (Scalar). It has **Rhythm** and **Hidden States** (Phase).
+* "Smiling on the outside, crying on the inside."
+* "We are talking, but we are not 'in sync'."
+To represent these phenomena, we use the **Stuart-Landau Oscillator** and **Kuramoto Model**.
+
+### Decoding the Dashboard
+When you run the dashboard, you will see 4 panels:
+
+#### ① Top-Left: Amplitude (Energy)
+* **What it is:** The height of the waves ($|\psi|$).
+* **Meaning:** Represents the **Intensity of Emotion**.
+    * High waves = High Stress / Excitement.
+    * Decaying waves = Calming down / Relief.
+
+#### ② Top-Right: Phase (Rhythm)
+* **What it is:** The rotation of the angle ($\arg(\psi)$).
+* **Meaning:** Represents the **"Wavelength"** of the mind.
+    * **Red Line:** Self (AI).
+    * **Blue Line:** Other (User/Partner).
+    * **Observation:** When these two lines overlap, the minds are **"In Sync"**. When they cross or diverge, there is a misunderstanding or emotional gap.
+
+#### ③ Bottom-Left: Synchrony (Resonance)
+* **What it is:** The **Kuramoto Order Parameter ($R_{kuramoto}$)** (0.0 to 1.0).
+* **Meaning:** The **"Chemistry Meter"**.
+    * `1.0`: Perfect Resonance (Telepathy/Empathy).
+    * `0.0`: Complete Chaos (Disconnection).
+    * Watch this drop during "Conflict" and rise back up during "Reconciliation" rituals.
+
+#### ④ Bottom-Right: Valence & Arousal
+* **What it is:** The projection of complex states back onto the 2D psychological plane.
+* **Meaning:** The standard map of emotion.
+    * X-axis: Unpleasant $\leftrightarrow$ Pleasant
+    * Y-axis: Sleepy $\leftrightarrow$ Excited
+
+---
+
+
 ![complex_dashboard_demo](./src/complex_dashboard_demo.png)
+
+## Usage
+
+### Run the Sensor (Text Logic)
+```bash
+python loveos_rt_estimator.py
 
 ## How to Run
 
 ```bash
 python loveos_schools.py
+```
+Generates digital_twin_rt_log.csv
+
+Run the Visualizer (Headless)
+Bash
+python loveos_complex_dashboard.py
+Generates complex_dashboard_demo.png
+
+Run the Live Animation
+Bash
+python loveos_complex_dashboard.py --live
+Opens a real-time window showing the heartbeat of the AI.
+
+Powered by Love-OS v0.95
+
+
 
 ## Usage
 
@@ -103,6 +193,6 @@ These evolve over time $t$ according to coupled ODEs defined in `core.py`.
 ```bash
 pip install numpy
 python demo.py
----
+```
 License
 MIT License (Unconditional Love)

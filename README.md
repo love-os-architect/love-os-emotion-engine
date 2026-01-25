@@ -68,7 +68,7 @@ The module currently simulates the following 8 major schools of thought:
 
 The Physics (Mapping)**All schools share the same underlying motion equations:
 
-![emotion_sim](./emotion_sim.png)
+![schools_CBT](./src/schools_CBT.png)
 ![emotion_sim](./emotion_sim.png)
 ![emotion_sim](./emotion_sim.png)
 ![emotion_sim](./emotion_sim.png)

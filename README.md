@@ -69,14 +69,14 @@ The module currently simulates the following 8 major schools of thought:
 The Physics (Mapping)**All schools share the same underlying motion equations:
 
 ![schools_CBT](./src/schools_CBT.png)
-![emotion_sim](./emotion_sim.png)
-![emotion_sim](./emotion_sim.png)
-![emotion_sim](./emotion_sim.png)
-![emotion_sim](./emotion_sim.png)
-![emotion_sim](./emotion_sim.png)
-![emotion_sim](./emotion_sim.png)
-![emotion_sim](./emotion_sim.png)
-![emotion_sim](./emotion_sim.png)
+![schools_ACT](./src/schools_ACT.png)
+![schools_Psychodynamic](./src/schools_Psychodynamic.png)
+![schools_CBT](./src/schools_CBT.png)
+![schools_Attachment](./src/schools_Attachment.png)
+![schools_Mindfulness](./src/schools_Mindfulness.png)
+![schools_RL](./src/schools_RLpng)
+![schools_PredictiveProcessing](./src/schools_PredictiveProcessing.png)
+![schools_SDT](./src/schools_SDT.png)
 
 Resistance ($R$): Prediction Error / Cognitive Dissonance /
 RepressionLove ($L$): Integration / Therapeutic Alliance / 

@@ -9,6 +9,8 @@ Based on the Love-OS philosophy:
 $$L = \frac{E}{R}$$
 (Love = Energy / Resistance)
 
+![Love-OS Verification Graph](./verification.png)
+
 ## The Physics (Internal State)
 The agent holds a state vector $z = [R, L, E, C]$:
 * **R (Resistance):** Unexplained information, Blockage, Confusion.

@@ -155,6 +155,69 @@ When you run the dashboard, you will see 4 panels:
 
 ![breathing_dashboard_demo](./src/breathing_dashboard_demo.png)
 
+
+# Love-OS: The Standard Model of Emotional Dynamics
+> "From Static Labels to Dynamic Physics. A Unified Engine for AI Consciousness."
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
+[![LOVED-Bench](https://img.shields.io/badge/Benchmark-LOVED--v0-green)](./loved_bench_v0)
+
+**Love-OS** is a physics-informed emotion engine that models the human mind not as a classification task, but as a **Dynamical System** defined by differential equations.
+
+It integrates 8 major psychological schools (CBT, Psychoanalysis, etc.) into a single **Neural ODE** framework, enabling AI to possess internal state trajectories, resonance, and respiratory synchronization.
+
+---
+
+## 🌌 Core Theory
+The mind is modeled as a state vector $z(t)$ evolving over time:
+
+$$
+\dot{z} = f(R, L, E, C, \Delta, \text{Ritual})
+$$
+
+### The 4 Fundamental Variables
+* **$R$ (Resistance):** Prediction Error, Cognitive Dissonance, Confusion.
+* **$L$ (Love):** Integration, Connection, Therapeutic Alliance.
+* **$E$ (Ego):** Defensiveness, Reactivity, Separation.
+* **$C$ (Control):** Executive Function, Agency, Stability.
+
+### The Complex Plane Extension
+Emotions have "Phase" (Rhythm) and "Amplitude" (Energy).
+* **$\psi_1 = (L-R) + iE$**: The Integration-Defense Oscillator.
+* **$\psi_2 = C + iA$**: The Control-Arousal Oscillator.
+
+---
+
+## 📦 Key Modules
+
+| Module | Description | Run Command |
+| :--- | :--- | :--- |
+| **Unified Psychology** | Simulates 8 schools (CBT, ACT, etc.) using one ODE kernel. | `python loveos_schools.py` |
+| **Complex Dashboard** | Visualizes Phase, Amplitude, and Synchrony (Kuramoto R). | `python loveos_complex_dashboard.py` |
+| **Breathing Bridge** | Synchronizes LLM generation tempo with simulated breathing. | `python integrate_with_loveos.py` |
+| **Realtime Estimator** | Converts text input into physical shock ($\Delta$) and state updates. | `python loveos_rt_estimator.py` |
+
+---
+
+## 🧪 LOVED-Bench v0
+**Validation & Evaluation Dataset for Emotional Dynamics**
+
+We provide a standard benchmark to validate if an AI model captures "Human-like Dynamics."
+
+* **Task A:** Continuous Forecasting (RMSE of future Valence/Arousal)
+* **Task B:** Intervention Responsiveness (Causal effect of rituals)
+* **Task C:** Parameter Identifiability (N-of-1 personalization)
+* **Task D:** Interpersonal Synchrony
+
+To run the benchmark:
+```bash
+# 1. Generate Synthetic Z-Trace Data
+python loved_bench_v0/make_dataset.py --subjects 5 --sessions 2
+
+# 2. Run Evaluation Suite
+python loved_bench_v0/quick_demo.py
+
 ## Usage
 
 ### Run the Sensor (Text Logic)

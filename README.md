@@ -85,6 +85,8 @@ Rigid BeliefsControl ($C$): Executive Function /
 Coping /
 AgencyPowered by Love-OS v0.95
 
+![schools_SDT](./src/schools_SDT.png)
+
 ## How to Run
 
 ```bash

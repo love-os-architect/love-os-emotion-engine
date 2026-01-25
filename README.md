@@ -85,7 +85,7 @@ Rigid BeliefsControl ($C$): Executive Function /
 Coping /
 AgencyPowered by Love-OS v0.95
 
-![schools_SDT](./src/schools_SDT.png)
+![complex_dashboard_demo](./src/complex_dashboard_demo.png)
 
 ## How to Run
 

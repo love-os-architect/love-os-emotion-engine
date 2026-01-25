@@ -153,7 +153,7 @@ When you run the dashboard, you will see 4 panels:
 ---
 
 
-![complex_dashboard_demo](./src/complex_dashboard_demo.png)
+![breathing_dashboard_demo](./src/breathing_dashboard_demo.png)
 
 ## Usage
 

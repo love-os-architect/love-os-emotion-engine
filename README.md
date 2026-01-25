@@ -38,6 +38,58 @@ It introduces a **Dual-Core Architecture**, simulating not just the AI's interna
 3.  **Reaction:** The AI reacts physically. Insults spike the AI's Ego; gratitude boosts Love.
 4.  **Auto-Regulation:** If the AI becomes too unstable, it automatically triggers a **Ritual** (like `BREATH`), forcing a rewrite of the System Prompt to regain composure.
 
+# Love-OS Unified Psychology Module
+> "From Freud to Friston: One Equation to Rule Them All."
+
+## Overview
+This module (`loveos_schools.py`) demonstrates the **Grand Unification of Psychological Theories** using the Love-OS Physics Engine.
+
+Instead of treating CBT, Psychoanalysis, and Mindfulness as separate disciplines, we map them all onto a single **Neural ODE** structure with different parameter settings and intervention policies.
+
+$$
+\dot{z} = f(R, L, E, C, \Delta, \text{Ritual})
+$$
+
+## Supported Schools
+The module currently simulates the following 8 major schools of thought:
+
+| School | Focus Variable | Key Mechanism | Ritual (Input) |
+| :--- | :--- | :--- | :--- |
+| **CBT** | $R$ (Cognition) | Reappraisal of errors | `REAPPRAISE` ($u_L\uparrow, u_C\uparrow$) |
+| **ACT** | $E$ (Rigidity) | Psychological Flexibility | `ACT` ($u_L\uparrow, u_C\uparrow, u_E\downarrow$) |
+| **Psychodynamic** | $R, E$ (Unconscious) | Insight & Interpretation | `INTERPRET` ($u_L\uparrow$) |
+| **Attachment** | $L$ (Security) | Secure Base | `RELATEDNESS` ($u_L\uparrow, u_C\uparrow$) |
+| **Mindfulness** | $E$ (Reactivity) | Non-judgmental Awareness | `BREATH` ($u_E\downarrow$), `COMPASSION` |
+| **Behavioral (RL)** | $C$ (Action) | Exposure & Reinforcement | `EXPOSURE` ($u_C\uparrow$) |
+| **Predictive Processing** | $R$ (Precision) | Error Minimization | `REAPPRAISE` (Model Update) |
+| **SDT** | $C$ (Autonomy) | Autonomy & Competence | `AUTONOMY` ($u_C\uparrow$) |
+
+## This will generate schools_[NAME].csv and schools_[NAME].png for all 8 schools.Compare the graphs to see how CBT reacts quickly to stress, while Psychodynamic theory resolves it slowly but deeply.
+
+The Physics (Mapping)**All schools share the same underlying motion equations:
+
+![emotion_sim](./emotion_sim.png)
+![emotion_sim](./emotion_sim.png)
+![emotion_sim](./emotion_sim.png)
+![emotion_sim](./emotion_sim.png)
+![emotion_sim](./emotion_sim.png)
+![emotion_sim](./emotion_sim.png)
+![emotion_sim](./emotion_sim.png)
+![emotion_sim](./emotion_sim.png)
+![emotion_sim](./emotion_sim.png)
+
+Resistance ($R$): Prediction Error / Cognitive Dissonance /
+RepressionLove ($L$): Integration / Therapeutic Alliance / 
+Secure BaseEgo ($E$): Defense Mechanism / Reactivity / 
+Rigid BeliefsControl ($C$): Executive Function /
+Coping /
+AgencyPowered by Love-OS v0.95
+
+## How to Run
+
+```bash
+python loveos_schools.py
+
 ## Usage
 
 ```bash

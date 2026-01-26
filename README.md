@@ -1,3 +1,508 @@
+# Love-OS: The Grand Unified Model of Consciousness
+### A Computational Framework bridging Biology, Neuroscience, Psychology, and Philosophy.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status: Alpha](https://img.shields.io/badge/Status-Alpha-blue.svg)]()
+
+**Love-OS** is an open-source initiative to decode the "black box" of human connection. By applying **Non-linear Physics (Complex Dynamical Systems)** to human behavior, we provide a unified mathematical coordinate system that integrates biological energy, neural synchronization, and psychological intent.
+
+---
+
+## 🗺️ The Grand Navigation Map
+
+Love-OS maps the entire process of reality creation—from metabolic energy generation to social output—across three distinct layers.
+
+```mermaid
+graph TD
+    subgraph Output Layer [Reality Creation]
+        Y[Y: Output / Performance]
+        NoteY(Y = L * cos θ)
+    end
+
+    subgraph Layer 3 [Application: Psychology & Philosophy]
+        Theta[θ: Phase / Intent]
+        Func3(Direction Control & Meaning)
+        Err3(Bug: Conflict / Ego)
+    end
+
+    subgraph Layer 2 [Kernel: Neuroscience & Science]
+        R[R: Coherence / Field Order]
+        Func2(Synchronization & Protocol)
+        Err2(Bug: Noise / Latency)
+    end
+
+    subgraph Layer 1 [Hardware: Biology]
+        L[L: Amplitude / Energy]
+        Func1(Metabolism & Safety)
+        Err1(Bug: Burnout / Trauma)
+    end
+
+    L -->|Supplies Power| R
+    R -->|Stabilizes Signal| Theta
+    Theta -->|Directs Vector| Y
+    Y -.->|Feedback Loop| L
+```
+# Love-OS Architecture Overview
+
+## 🧠 Layered Model of Human Systems
+
+### **Layer 1: Hardware (Biology)**
+
+- **Variable:** $L$ (Amplitude / Energy)  
+
+- **Domain:** Polyvagal Theory, Metabolism, Circadian Rhythms  
+
+- **Function:** **The Power Plant**
+
+> Converts **Safety** ($S$) into vital energy ($L$).  
+
+> Without $L$, no higher function operates.
+
+**Key Insight:**  
+
+Love is not an emotion; it is a **biological availability of energy enabled by safety**.
+
+---
+
+### **Layer 2: Kernel (Neuroscience / Science)**
+
+- **Variable:** $R$ (Coherence / Field Order)  
+
+- **Domain:** Neural Synchronization, Mirror Neurons, Communication Protocols  
+
+- **Function:** **The Network Protocol**
+
+> Reduces variance ($\sigma$) and establishes a synchronized field  
+
+> where information flows without resistance (**Superconductivity**).
+
+**Key Insight:**  
+
+Trust is mathematically defined as **high phase-synchronization**  
+
+($R \approx 1$) with **low latency**.
+
+---
+
+### **Layer 3: Application (Psychology / Philosophy)**
+
+- **Variable:** $\theta$ (Phase / Vector Direction)  
+
+- **Domain:** Cognition, Ego, Ethics, Religion  
+
+- **Function:** **The Compass**
+
+Determines the **direction** of the energy flow.
+
+- $\theta \approx 0$ → Alignment (Love / Creation)  
+
+- $\theta \approx \pi$ → Inversion (Fear / Destruction)
+
+**Key Insight:**  
+
+Ego is simply a **vector misalignment**, not a moral failing.
+
+---
+
+## ⚛️ The Unified Equation
+
+Love-OS proposes a single equation to measure the quality of any human system  
+
+(Relationship, Team, or Society):
+
+\[
+
+R_{\text{total}} =
+
+\underbrace{\left| \frac{\sum L_k e^{i\theta_k}}{\sum L_k} \right|}_{\text{Phase Sync}}
+
+\cdot
+
+\underbrace{\exp(-\alpha \sigma_{\text{latency}})}_{\text{Bio-Rhythm Sync}}
+
+\cdot
+
+\underbrace{C_{\text{semantic}}}_{\text{Meaning Sync}}
+
+\]
+
+### Parameters
+
+- **Phase Sync**  
+
+  Do we share the same intent? (Weighted by Energy $L$)
+
+- **Bio-Rhythm Sync**  
+
+  Do we share the same temporal rhythm? (Latency variance)
+
+- **Meaning Sync**  
+
+  Do we use language in the same context? (Semantic vectors)
+
+---
+
+## 🏛️ The Rosetta Stone: Cross-Domain Integration
+
+Love-OS acts as a **translator** that unifies fragmented academic and spiritual disciplines into a single source code.
+
+| Domain | Focus Variable | Primary Approach | Love-OS Interpretation |
+
+|------|---------------|------------------|------------------------|
+
+| Religion / Zen | $\theta$ (Phase) | Prayer, Meditation, Emptiness | Minimizing the ego-vector ($\theta \to 0$) to align with universal flow ($\Psi$) |
+
+| Science / Academia | $R$ (Coherence) | Reproducibility, Protocols, Evidence | Maximizing field synchronization by reducing noise and variance |
+
+| Biology / Wellness | $L$ (Energy) | Nutrition, Sleep, Somatic Work | Maximizing amplitude by ensuring physiological safety ($S$) |
+
+| Philosophy / Ethics | $\theta$ (Direction) | Purpose, Good, Meaning | Defining the optimal vector direction for system output ($Y$) |
+
+---
+
+## 🐘 The “Blind Men and the Elephant” — Solved
+
+- Science touched the **leg** (Structure / Protocol) → found $R$  
+
+- Religion touched the **trunk** (Flow / Spirit) → found $\theta$  
+
+- Biology touched the **body** (Life force) → found $L$
+
+**Love-OS is the map of the whole Elephant.**
+
+---
+
+## 💻 Implementation
+
+Love-OS is not just a theory — it is **runnable code**.
+
+```python
+
+from love_os_core import compute_R_over_time
+
+# Input: A mix of biological, psychological, and semantic logs
+
+# Output: The hidden "Field Coherence" score
+
+metrics = compute_R_over_time(user_logs)
+
+
+🔮 Future Roadmap
+
+Bio-Feedback Integration
+Connect HRV / Apple Watch data to feed real-time $L$
+
+Semantic Vector Space
+Implement LLM embeddings for precise $C_{\text{semantic}}$ calculation
+
+“Safety Injection” API
+Protocols to digitally induce Safety ($S$) and boost system performance
+```
+
+📄 License
+
+MIT License
+Because the laws of physics belong to everyone.
+
+---
+# Love-OS: A Unified Field Theory of Human Connection
+### Bridging Biology, Neuroscience, and Psychology via Computational Physics.
+
+**Love-OS** is an open-source project that redefines abstract concepts like "Love," "Trust," and "Vibe" as computable physical quantities using **Complex Dynamical Systems**.
+
+It provides a mathematical framework to quantify the "Field Coherence" ($R$) of a team, a couple, or an individual's internal state.
+
+## 🌌 Overview
+
+Why do "logical" arguments often fail to persuade?
+Why do organizations burn out despite having high-performance individuals?
+
+Love-OS explains these phenomena by integrating **Three Layers** into a single mathematical model:
+
+### The Trinity of Connection
+
+| Variable | Definition | Physical Meaning | Domain Mapping |
+| :--- | :--- | :--- | :--- |
+| **$L$** | **Amplitude (Energy)** | **Metabolic Energy**<br>Generated only when "Safety" ($S$) is present. The source of activity. | **Biology**<br>(Polyvagal Theory) |
+| **$\theta$** | **Phase (Ego)** | **Vector Direction**<br>Intent/Attitude. <br>$0$: Synchronization (Love)<br>$\pi$: Inversion (Fear/Hate) | **Psychology**<br>(Cognition/Ego) |
+| **$R$** | **Coherence (Field)** | **Order Parameter**<br>The degree of synchronization. How much the system behaves as a "Super-organism." | **Neuroscience**<br>(Neural Sync) |
+
+---
+
+## 📐 Mathematical Model
+
+The core of Love-OS is the interaction between the Individual State ($Z$) and the Field Order ($R$).
+
+### 1. The Soul Equation (Individual)
+The state of individual $k$ is defined as a vector on the complex plane:
+
+$$Z_k = L_k e^{i\theta_k}$$
+
+- **Real Component ($L \cos \theta$):** Observable behavior/output.
+- **Imaginary Component ($L \sin \theta$):** Internal intent, potential, or conflict.
+- **$\theta \to 90^\circ$ (Imaginary Axis):** The "Awakened" state where the ego vector aligns with the field potential.
+
+### 2. The Field Equation (Coherence)
+The Total Field Coherence ($R_{\text{total}}$) is defined not just by opinion matching, but by the product of **Physics (Phase)**, **Biology (Rhythm)**, and **Semantics (Meaning)**.
+
+$$R_{\text{total}} = \underbrace{\left| \frac{\sum L_k e^{i\theta_k}}{\sum L_k} \right|}_{\text{Phase Sync}} \cdot \underbrace{\exp(-\alpha \sigma_{\text{latency}})}_{\text{Bio-Rhythm Sync}} \cdot \underbrace{C_{\text{semantic}}}_{\text{Meaning Sync}}$$
+
+- **Phase Sync:** Physical alignment of intent. Weighted by Energy ($L$), meaning high-energy individuals influence the field more.
+- **Bio-Rhythm Sync:** Synchronization of response latency (reaction time). Even if words match, irregular rhythm lowers $R$ (detecting lies/dissonance).
+- **Meaning Sync:** Contextual vector similarity (NLP).
+
+---
+
+## 🧠 Philosophy: "Ego vs. Soul"
+
+Love-OS distinguishes "Ego" and "Soul" as physical laws, not moral judgments.
+
+- **Ego Mode ($\theta \neq \Psi$):**
+  - **Newtonian Mechanics:** Action & Reaction.
+  - High friction. Energy ($L$) is consumed by internal conflict.
+  - Relationship based on "Pushing."
+- **Soul Mode ($\theta \approx \Psi$):**
+  - **Quantum Mechanics:** Resonance & Interference.
+  - **Superconductivity State** ($Resistance \to 0$). Energy circulates and amplifies infinitely.
+  - Relationship based on "Attraction."
+
+---
+
+## 🚀 Getting Started
+
+### Installation
+```bash
+pip install numpy pandas matplotlib
+from love_os_core import compute_R_over_time
+import pandas as pd
+
+# 1. Prepare your interaction logs
+# Columns: timestamp, agent_id, L (energy), theta (angle), latency_sec, text
+df = pd.read_csv('sample_chat_logs.csv')
+
+# 2. Compute the "Love Field" metrics
+metrics = compute_R_over_time(df, alpha=0.1)
+
+# 3. Analyze the hidden synchronization score
+print(metrics[['timestamp', 'R_total', 'R_phase', 'R_bio']])
+```
+License
+MIT License.
+
+
+---
+
+### 💻 2. love_os_core.py (The Code)
+
+Here is the implementation code with full English docstrings and variable names.
+
+```python
+# -*- coding: utf-8 -*-
+"""
+Love-OS Core Engine v0.6
+A computational model for estimating 'Field Coherence' (R) based on
+Psychological (Theta), Biological (L, Latency), and Semantic signals.
+
+This module provides the mathematical implementation of the "Trinity of Connection".
+"""
+
+import re
+import unicodedata
+from collections import Counter
+from typing import List, Dict, Optional
+
+import numpy as np
+import pandas as pd
+
+# --- Constants & Config ---
+DEFAULT_ALPHA = 0.1       # Sensitivity to latency variance (Bio-rhythm decay factor)
+MIN_VOCAB_DF = 1          # Minimum document frequency for semantic vectorization
+
+class LoveOSMetrics:
+    """Validator and Utility container for Love-OS data processing."""
+    
+    @staticmethod
+    def to_radian(theta_series: pd.Series) -> pd.Series:
+        """
+        Converts degrees to radians if necessary.
+        Heuristic: if > 10% of data is outside [-2pi, 2pi], assume degrees.
+        """
+        vals = theta_series.dropna().astype(float).values
+        if len(vals) == 0:
+            return theta_series
+        
+        if np.mean(np.abs(vals) > 2 * np.pi) > 0.1:
+            return theta_series * np.pi / 180.0
+        return theta_series
+
+    @staticmethod
+    def normalize_text(text: str) -> str:
+        """
+        Text normalization for semantic coherence calculation.
+        Handles Unicode normalization and noise removal.
+        """
+        if not isinstance(text, str):
+            return ""
+        text = unicodedata.normalize("NFKC", str(text)).lower()
+        # Keep alphanumeric and specific language characters (e.g., Japanese/Latin)
+        # Modify regex as needed for other languages.
+        text = re.sub(r"[^\w\s\u3040-\u30ff\u4e00-\u9fff]", " ", text)
+        return re.sub(r"\s+", " ", text).strip()
+
+# --- Core Logic: The Trinity Calculations ---
+
+def calc_r_phase(L: np.ndarray, theta_rad: np.ndarray) -> float:
+    """
+    [Physics Layer] Calculates the Phase Synchronization Order Parameter.
+    
+    Formula: R = | sum(L * e^(i*theta)) / sum(L) |
+    
+    Represents the 'Weighted Kuramoto Order Parameter'.
+    High energy (L) agents have a stronger influence on the field direction.
+    """
+    total_energy = np.sum(L)
+    if total_energy <= 0:
+        return 0.0
+    
+    # Complex vector summation
+    z_vector = np.sum(L * np.exp(1j * theta_rad))
+    return float(np.abs(z_vector / total_energy))
+
+def calc_bio_sync(latencies: np.ndarray, alpha: float) -> float:
+    """
+    [Biology Layer] Calculates Biological/Rhythm Synchronization.
+    
+    Formula: R_bio = exp(-alpha * sigma_latency)
+    
+    Based on the variance of response latency. 
+    Low variance implies a "Flow State" or high bio-rhythm sync.
+    High variance implies hesitation, cognitive load, or lack of safety.
+    """
+    # Filter invalid latencies
+    valid_latencies = latencies[~np.isnan(latencies) & (latencies >= 0)]
+    
+    if len(valid_latencies) < 2:
+        # Default to high sync if not enough data points to judge variance
+        return 1.0 
+        
+    sigma = np.std(valid_latencies, ddof=0)
+    
+    # Exponential decay function
+    return float(np.exp(-alpha * sigma))
+
+def calc_semantic_sync(texts: List[str], min_df: int) -> float:
+    """
+    [Cognitive Layer] Calculates Semantic Coherence via Cosine Similarity.
+    
+    Uses a simple Bag-of-Words (BoW) approach for portability.
+    For production, consider using embeddings (e.g., SBERT/OpenAI).
+    """
+    n = len(texts)
+    if n < 2:
+        return 1.0
+        
+    # 1. Build Vocabulary
+    norm_texts = [LoveOSMetrics.normalize_text(t) for t in texts]
+    tokens_list = [t.split() for t in norm_texts]
+    
+    all_tokens = [tok for sublist in tokens_list for tok in sublist]
+    counts = Counter(all_tokens)
+    vocab = {word: i for i, (word, cnt) in enumerate(counts.items()) if cnt >= min_df}
+    
+    if not vocab:
+        return 0.0
+
+    # 2. Vectorize
+    dim = len(vocab)
+    vectors = np.zeros((n, dim))
+    for i, tokens in enumerate(tokens_list):
+        for tok in tokens:
+            if tok in vocab:
+                vectors[i, vocab[tok]] += 1
+        # L2 Normalize
+        norm = np.linalg.norm(vectors[i])
+        if norm > 0:
+            vectors[i] /= norm
+
+    # 3. Average Pairwise Cosine Similarity
+    # Dot product of normalized vectors equals cosine similarity
+    similarity_matrix = np.dot(vectors, vectors.T)
+    
+    # Exclude self-similarity (diagonal) and take average of off-diagonal elements
+    sum_sim = np.sum(similarity_matrix) - n
+    avg_sim = sum_sim / (n * (n - 1))
+    return float(avg_sim)
+
+# --- Main Entry Point ---
+
+def compute_R_over_time(
+    df: pd.DataFrame, 
+    alpha: float = DEFAULT_ALPHA,
+    ema_span: Optional[int] = None
+) -> pd.DataFrame:
+    """
+    Computes the Total Field Coherence (R_total) over time.
+    
+    Args:
+        df: DataFrame with columns ['timestamp', 'agent_id', 'L', 'theta', 'latency_sec', 'text']
+        alpha: Sensitivity parameter for latency synchronization.
+        ema_span: Span for Exponential Moving Average smoothing (optional).
+        
+    Returns:
+        DataFrame containing R_total and its Trinity components per timestamp.
+    """
+    required = {'timestamp', 'L', 'theta', 'latency_sec'}
+    if not required.issubset(df.columns):
+        raise ValueError(f"Input DataFrame missing required columns: {required - set(df.columns)}")
+
+    df = df.copy()
+    df['timestamp'] = pd.to_datetime(df['timestamp'])
+    
+    # Pre-process Angle
+    df['theta_rad'] = LoveOSMetrics.to_radian(df['theta'])
+    
+    results = []
+
+    # Group by time slice (Snapshot of the field)
+    for ts, group in df.groupby('timestamp'):
+        # 1. Physics: Phase Sync (Direction)
+        r_ph = calc_r_phase(group['L'].values, group['theta_rad'].values)
+        
+        # 2. Biology: Bio-Rhythm Sync (Latency)
+        r_bio = calc_bio_sync(group['latency_sec'].values, alpha)
+        
+        # 3. Cognition: Semantic Sync (Meaning)
+        txts = group['text'].fillna("").astype(str).tolist() if 'text' in group else []
+        r_sem = calc_semantic_sync(txts, MIN_VOCAB_DF)
+        
+        # Total Coherence: The Product of Trinity
+        # If any layer fails (approaches 0), the total field collapses.
+        r_total = r_ph * r_bio * r_sem
+        
+        results.append({
+            'timestamp': ts,
+            'R_phase': r_ph,
+            'R_bio': r_bio,
+            'R_semantic': r_sem,
+            'R_total': r_total,
+            'agent_count': len(group)
+        })
+
+    result_df = pd.DataFrame(results).sort_values('timestamp').reset_index(drop=True)
+
+    # Apply Smoothing if requested (to see the trend clearly)
+    if ema_span:
+        cols = ['R_phase', 'R_bio', 'R_semantic', 'R_total']
+        for c in cols:
+            result_df[f'{c}_ema'] = result_df[c].ewm(span=ema_span, adjust=False).mean()
+
+    return result_df
+
+if __name__ == "__main__":
+    # Quick Test
+    print("Love-OS Core Engine v0.6: Loaded successfully.")
+```
+
 # Love-OS Emotion Engine (v0.95)
 > "Emotion is not magic. It is Physics."
 

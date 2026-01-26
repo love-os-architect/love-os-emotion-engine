@@ -1,0 +1,332 @@
+{
+  "version": "LOVED-Philosophy-Profiles/v0.1",
+  "created": "2026-01-25T09:45:00Z",
+  "schema_notes": "All numeric values are additive shifts to a shared baseline. Empty strings mean 'use engine default'.",
+  "baseline": {
+    "delta_mapping": "clamp(0.8*A - 0.6*V, -1.5, 1.5)",
+    "observation": {
+      "V": "tanh(1.0*(-R) + 0.8*L - 1.0*E + 0.7*C)",
+      "A": "abs(psi2)"
+    }
+  },
+  "profiles": [
+    {
+      "id": "stoic",
+      "label": "Stoicism",
+      "summary": "Separates the controllable from the uncontrollable. Dampens E (Reactivity) and stabilizes C (Control) through rational allocation of attention.",
+      "tags": ["ethics", "practical", "resilience"],
+      "model": {
+        "param_shifts": {
+          "real": {
+            "aE": -0.15,
+            "dE": 0.08,
+            "aC": 0.10,
+            "bC": 0.10
+          },
+          "complex": {
+            "sigma1": 0.02,
+            "omega1": -0.20,
+            "eta1": -0.02,
+            "sigma2": 0.05,
+            "omega2": -0.15
+          }
+        },
+        "delta_mapping": "clamp(0.9*(0.8*A - 0.6*V), -1.5, 1.5)",
+        "phase": {
+          "entrain_breath_hz": [0.10, 0.12],
+          "social_K": 0.10
+        }
+      },
+      "ritual_policy": {
+        "preferred": ["BREATH", "LABEL", "BOUNDARY"],
+        "rules": [
+          {"if": "E>0.8", "do": "BREATH(60s)"},
+          {"if": "R>0.7 && C<0.6", "do": "BOUNDARY(clarify=values)"},
+          {"if": "R>0.5 && L<0.3", "do": "LABEL('emotion')"}
+        ]
+      },
+      "llm_style": {
+        "system_guidelines": [
+          "Be calm, concise, and non-reactive.",
+          "Separate controllable from uncontrollable and propose one stable action."
+        ],
+        "tempo": {"inhale_token_delay_ms": 110, "exhale_token_delay_ms": 70}
+      },
+      "safety": {"E_cap": 1.2, "clip_z": [-2.0, 2.0]}
+    },
+    {
+      "id": "existentialist",
+      "label": "Existentialism",
+      "summary": "Confronts R (The Absurd) directly to generate L (Meaning). C supports choice but does not impose absolute rules.",
+      "tags": ["meaning", "choice", "anxiety"],
+      "model": {
+        "param_shifts": {
+          "real": {
+            "aL": 0.12,
+            "dL": -0.03,
+            "aC": 0.05,
+            "aE": -0.05
+          },
+          "complex": {
+            "sigma1": 0.10,
+            "kappa1": 0.05,
+            "eta1": -0.01
+          }
+        },
+        "delta_mapping": "clamp(1.0*A - 0.4*V, -1.5, 1.5)",
+        "phase": {
+          "entrain_breath_hz": [0.10, 0.15],
+          "social_K": 0.08
+        }
+      },
+      "ritual_policy": {
+        "preferred": ["REAPPRAISE", "VALUES", "PAUSE"],
+        "rules": [
+          {"if": "R>0.9", "do": "PAUSE(15s)"},
+          {"if": "R>0.6", "do": "REAPPRAISE"},
+          {"if": "C<0.6", "do": "VALUES(write=1min)"}
+        ]
+      },
+      "llm_style": {
+        "system_guidelines": [
+          "Name the tension; invite a choice that reflects values.",
+          "Offer two concrete paths; respect freedom."
+        ],
+        "tempo": {"inhale_token_delay_ms": 130, "exhale_token_delay_ms": 75}
+      },
+      "safety": {"E_cap": 1.3, "clip_z": [-2.0, 2.0]}
+    },
+    {
+      "id": "phenomenology",
+      "label": "Phenomenology",
+      "summary": "Focuses on Intentionality. Uses LABEL/PAUSE to bracket E (Epoché) and constitute objects via L. Emphasizes observational consistency.",
+      "tags": ["epistemology", "intentionality"],
+      "model": {
+        "param_shifts": {
+          "real": {"aE": -0.12, "bE": 0.06, "aL": 0.08},
+          "complex": {"omega1": -0.10, "eta1": -0.03}
+        },
+        "delta_mapping": "clamp(0.75*A - 0.55*V, -1.5, 1.5)",
+        "phase": {"entrain_breath_hz": [0.09, 0.12], "social_K": 0.06}
+      },
+      "ritual_policy": {
+        "preferred": ["LABEL", "PAUSE", "BREATH"],
+        "rules": [
+          {"if": "R>0.5 && E>0.5", "do": "PAUSE(10s)"},
+          {"if": "R>0.5", "do": "LABEL('name it')"}
+        ]
+      },
+      "llm_style": {
+        "system_guidelines": [
+          "Bracket assumptions; describe what appears without theory.",
+          "Short clarifying questions; reflect back precisely."
+        ],
+        "tempo": {"inhale_token_delay_ms": 120, "exhale_token_delay_ms": 80}
+      },
+      "safety": {"E_cap": 1.1, "clip_z": [-2.0, 2.0]}
+    },
+    {
+      "id": "analytic",
+      "label": "Analytic Philosophy",
+      "summary": "Refinement of the observation function (Language Game). Assumes Delta arises from terminological ambiguity.",
+      "tags": ["language", "clarity", "logic"],
+      "model": {
+        "param_shifts": {
+          "real": {"aL": 0.06, "bR": 0.08, "aE": -0.05},
+          "complex": {"sigma1": 0.04}
+        },
+        "delta_mapping": "clamp(0.7*A - 0.7*V, -1.5, 1.5)",
+        "phase": {"entrain_breath_hz": [0.11, 0.13], "social_K": 0.05}
+      },
+      "ritual_policy": {
+        "preferred": ["LABEL", "REFORMULATE", "CHECKDEFS"],
+        "rules": [
+          {"if": "R>0.5", "do": "CHECKDEFS(term=3)"},
+          {"if": "R>0.6", "do": "REFORMULATE(1-2 lines)"}
+        ]
+      },
+      "llm_style": {
+        "system_guidelines": [
+          "Define terms; avoid ambiguity; use minimal premises.",
+          "Offer numbered steps; show entailments."
+        ],
+        "tempo": {"inhale_token_delay_ms": 100, "exhale_token_delay_ms": 65}
+      },
+      "safety": {"E_cap": 1.2, "clip_z": [-2.0, 2.0]}
+    },
+    {
+      "id": "pragmatism",
+      "label": "Pragmatism",
+      "summary": "Truth is successful action. Reinforces C (Agency) to reduce R via small, iterative wins.",
+      "tags": ["practice", "utility", "iteration"],
+      "model": {
+        "param_shifts": {
+          "real": {"aC": 0.15, "bC": 0.10, "gR": 0.05},
+          "complex": {"sigma2": 0.05}
+        },
+        "delta_mapping": "clamp(0.85*A - 0.5*V, -1.5, 1.5)",
+        "phase": {"entrain_breath_hz": [0.12, 0.16], "social_K": 0.12}
+      },
+      "ritual_policy": {
+        "preferred": ["ACTION", "SMALLWIN", "REAPPRAISE"],
+        "rules": [
+          {"if": "C<0.7", "do": "ACTION(step=very_small)"},
+          {"if": "R>0.7", "do": "SMALLWIN(5min task)"}
+        ]
+      },
+      "llm_style": {
+        "system_guidelines": [
+          "Propose one tiny next action; time-box it.",
+          "Reflect outcome; update plan."
+        ],
+        "tempo": {"inhale_token_delay_ms": 100, "exhale_token_delay_ms": 70}
+      },
+      "safety": {"E_cap": 1.3, "clip_z": [-2.0, 2.0]}
+    },
+    {
+      "id": "utilitarian",
+      "label": "Utilitarianism",
+      "summary": "Maximization of average Valence. Increases social coupling K and uses C for allocative design.",
+      "tags": ["ethics", "welfare", "aggregation"],
+      "model": {
+        "param_shifts": {
+          "real": {"aC": 0.10, "bC": 0.08},
+          "complex": {"sigma2": 0.04}
+        },
+        "delta_mapping": "clamp(0.8*A - 0.6*V, -1.5, 1.5)",
+        "phase": {"entrain_breath_hz": [0.10, 0.14], "social_K": 0.18}
+      },
+      "ritual_policy": {
+        "preferred": ["REBALANCE", "SURVEY", "REAPPRAISE"],
+        "rules": [
+          {"if": "group", "do": "SURVEY(preference)"},
+          {"if": "conflict", "do": "REBALANCE(weights)"}
+        ]
+      },
+      "llm_style": {
+        "system_guidelines": [
+          "List stakeholders; estimate impacts; pick the maximal net V option.",
+          "Disclose trade-offs transparently."
+        ],
+        "tempo": {"inhale_token_delay_ms": 110, "exhale_token_delay_ms": 75}
+      },
+      "safety": {"E_cap": 1.2, "clip_z": [-2.0, 2.0]}
+    },
+    {
+      "id": "virtue_ethics",
+      "label": "Virtue Ethics (Aristotelian)",
+      "summary": "Cultivates character (L) and habit (C) through practice. Seeks the Golden Mean between excess and deficiency.",
+      "tags": ["ethics", "character", "habit"],
+      "model": {
+        "param_shifts": {
+          "real": {"dC": -0.05, "aC": 0.10, "aL": 0.06},
+          "complex": {"omega2": -0.10}
+        },
+        "delta_mapping": "clamp(0.8*A - 0.5*V, -1.5, 1.5)",
+        "phase": {"entrain_breath_hz": [0.10, 0.12], "social_K": 0.09}
+      },
+      "ritual_policy": {
+        "preferred": ["ROUTINE", "REFLECT", "ACTION"],
+        "rules": [
+          {"if": "C<0.8", "do": "ROUTINE(daily)"},
+          {"if": "R>0.6", "do": "REFLECT(virtue=temperance)"}
+        ]
+      },
+      "llm_style": {
+        "system_guidelines": [
+          "Suggest a consistent routine aligned with a virtue.",
+          "Encourage reflection on excess/deficiency."
+        ],
+        "tempo": {"inhale_token_delay_ms": 115, "exhale_token_delay_ms": 75}
+      },
+      "safety": {"E_cap": 1.2, "clip_z": [-2.0, 2.0]}
+    },
+    {
+      "id": "platonism",
+      "label": "Platonism",
+      "summary": "Reinforces L (Logos/Form) to dissolve R (Shadows). Slows down phase (Omega) for contemplation.",
+      "tags": ["metaphysics", "ideals", "contemplation"],
+      "model": {
+        "param_shifts": {
+          "real": {"bR": 0.15, "aL": 0.10, "aE": -0.04},
+          "complex": {"sigma1": 0.08, "omega1": -0.15}
+        },
+        "delta_mapping": "clamp(0.7*A - 0.7*V, -1.5, 1.5)",
+        "phase": {"entrain_breath_hz": [0.09, 0.11], "social_K": 0.06}
+      },
+      "ritual_policy": {
+        "preferred": ["CONTEMPLATE", "LABEL", "BREATH"],
+        "rules": [
+          {"if": "R>0.6", "do": "CONTEMPLATE(ideal=Form)"},
+          {"if": "E>0.6", "do": "BREATH(45s)"}
+        ]
+      },
+      "llm_style": {
+        "system_guidelines": [
+          "Elevate to first principles; map particulars to universals.",
+          "Offer a clarifying analogy from ideal structures."
+        ],
+        "tempo": {"inhale_token_delay_ms": 120, "exhale_token_delay_ms": 80}
+      },
+      "safety": {"E_cap": 1.2, "clip_z": [-2.0, 2.0]}
+    },
+    {
+      "id": "buddhism_zen",
+      "label": "Buddhism / Zen",
+      "summary": "Dissolves E (Attachment) and promotes simultaneous decay of R and L. Quiets the phase through breath.",
+      "tags": ["contemplative", "non-attachment", "compassion"],
+      "model": {
+        "param_shifts": {
+          "real": {"aE": -0.20, "bE": 0.10, "dE": 0.08, "aL": 0.04},
+          "complex": {"omega1": -0.25, "eta1": -0.08, "omega2": -0.15}
+        },
+        "delta_mapping": "clamp(0.6*A - 0.6*V, -1.5, 1.5)",
+        "phase": {"entrain_breath_hz": [0.08, 0.12], "social_K": 0.10}
+      },
+      "ritual_policy": {
+        "preferred": ["MINDFULNESS", "COMPASSION", "BREATH"],
+        "rules": [
+          {"if": "E>0.5", "do": "MINDFULNESS(3min)"},
+          {"if": "R>0.6", "do": "COMPASSION(phrasing=metta)"}
+        ]
+      },
+      "llm_style": {
+        "system_guidelines": [
+          "Non-judgmental noticing; gentle compassion phrases.",
+          "Invite breath awareness; avoid heavy theorizing."
+        ],
+        "tempo": {"inhale_token_delay_ms": 140, "exhale_token_delay_ms": 85}
+      },
+      "safety": {"E_cap": 1.0, "clip_z": [-2.0, 2.0]}
+    },
+    {
+      "id": "daoism",
+      "label": "Daoism",
+      "summary": "Wu-wei (Non-action). Reduces forced Control (C), maintains L circulation, and accepts phase differences softly.",
+      "tags": ["non-action", "flow", "harmony"],
+      "model": {
+        "param_shifts": {
+          "real": {"aC": -0.06, "dL": -0.02, "aE": -0.08},
+          "complex": {"omega1": -0.20, "eta1": -0.06}
+        },
+        "delta_mapping": "clamp(0.7*A - 0.5*V, -1.5, 1.5)",
+        "phase": {"entrain_breath_hz": [0.09, 0.11], "social_K": 0.07}
+      },
+      "ritual_policy": {
+        "preferred": ["BREATH", "PAUSE", "ACCEPT"],
+        "rules": [
+          {"if": "R>0.5 || E>0.5", "do": "ACCEPT('let it be')"},
+          {"if": "R>0.6", "do": "BREATH(60s)"}
+        ]
+      },
+      "llm_style": {
+        "system_guidelines": [
+          "Prefer gentle guidance; avoid coercion.",
+          "Use nature metaphors; suggest easing rather than pushing."
+        ],
+        "tempo": {"inhale_token_delay_ms": 130, "exhale_token_delay_ms": 80}
+      },
+      "safety": {"E_cap": 1.1, "clip_z": [-2.0, 2.0]}
+    }
+  ]
+}

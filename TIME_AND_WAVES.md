@@ -88,7 +88,7 @@ To maintain the scientific integrity of this repository, the following constrain
 ### Visualization of Temporal Density Dynamics
 The following graph demonstrates the correlation between **Subjective Time Density ($\dot{\tau}$)** and **Action Speed ($v_\parallel$)** over a 21-day period.
 
-![Time Density vs Action Speed](./assets/loveos_time_perception_en.png)
+![generated_image3.png](.generated_image3.png/.png)
 
 * **Baseline:** Low alignment results in "thin" time and standard speed.
 * **Intervention (Love-OS Applied):** High Meaning ($\bar{M}$) and Alignment ($R$) create a **Phase Transition**. Notice how Subjective Time Density (Blue) spikes, dragging Action Speed (Orange) upward.

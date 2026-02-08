@@ -888,6 +888,52 @@ Powered by Love-OS v0.95
 
 # Love-OS Dynamics: The Physics of Shame & Superconductivity
 
+# The Physics of Feeling Time: Dynamics of Waves and Flow
+
+> **"Why do hours feel like seconds when we are in love or deep focus, but seconds feel like hours when we are in conflict or bored?"**
+
+In Love-OS, subjective time dilation isn't just a psychological trick—it's a quantifiable physical phenomenon resulting from internal wave coherence.
+
+This document introduces how emotional alignment warps your subjective spacetime.
+
+---
+
+## The Human Experience
+
+We exist in two timelines simultaneously:
+
+1.  **Physical Time ($L_0$):** The ticking clock on the wall. Constant and objective.
+2.  **Subjective Time Density ($\dot{\tau}$):** The richness of experience per physical second. Highly variable based on emotional state.
+
+When you are in a "Flow State" (the Zone), your internal world is highly aligned. You process more meaning and take more action per clock-second. Time feels "compressed" because it is "dense" with experience.
+
+Conversely, when you are distracted or internally conflicted (high entropy), time feels "diluted" and "heavy."
+
+## The Mechanism: Internal Wave Coherence
+
+Love-OS models consciousness as a set of interacting **"waves"**—your attention, intentions, and actions.
+
+* **Incoherence (Low $R$):** When your attention is split and intentions conflict, these waves cancel each other out (destructive interference). The result is friction, emotional noise, and "slow" time.
+* **Coherence (High $R$):** When your heart, mind, and actions align toward a single purpose, these waves amplify each other (constructive interference).
+
+This high coherence creates a strong **"Love Potential" ($\Phi_L$)**, which acts like gravity for your consciousness. It warps your subjective spacetime, increasing Time Density ($\dot{\tau}$).
+
+> **Simple Formula:** Alignment $\to$ Denser Time $\to$ Flow State.
+
+## The Phase Transition ("The Line Stands Up")
+
+When this coherence reaches a critical threshold, a phase transition occurs. Resistance drops near zero, and action becomes effortless. You stop "pushing" against time and start "riding" the wave of dense time.
+
+We call this the state of emotional **Superconductivity**.
+
+---
+
+## 📘 Technical Specification
+
+For the complete mathematical derivation connecting quantum wave mechanics ($R$-factor) to relativistic time dilation ($\dot{\tau}$), and the formulas for calculating this in your own life, please refer to the core documentation.
+
+👉 **[Read the Full Technical Spec: Dynamics of Time and Waves](https://github.com/love-os-architect/love-os-emotion-engine/blob/main/TIME_AND_WAVES.md)**
+
 ## 1. Abstract
 This module quantifies "Shame" not as an emotion, but as a **measurable hysteresis loss** in a dynamical system. 
 In Love-OS physics, the human state is defined by two vectors:

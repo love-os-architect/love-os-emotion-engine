@@ -1076,7 +1076,7 @@ Markdown
 > **Theorem:** Charisma (Iroke) is the "Magnetic Field" induced by the rapid fluctuation of emotional voltage on the Imaginary Axis.
 
 ---
-
+👉 **[Read the Human-Vibration-Theoryl Spec: Dynamics of Time and Waves](https://github.com/love-os-architect/Human-Vibration-Theory)**
 ## 1. The Dynamic Wave Equation
 
 In version 2.0, we evolve the static coordinate $z = a + bi$ into a **Time-Varying Phasor**:

@@ -44,3 +44,22 @@ $$\dot{\theta} = \Omega - K(R)\sin(\theta - \theta_0)$$
 3. **The Miracle:** The shift will not be linear. It will be a quantum leap. Keep your vector pointing UP, keep accumulating $R$, and let the physics of the universe handle the phase transition.
 
 > *"Do not seek to attach to the other. Seek your own North Star. Spin your own axis. When both exist in perfect parallel ascension, reality will naturally bend to unite them."*
+>
+> # Love-OS Interactive Simulator: The Physics of Reality Creation
+
+**Architecture:** Phase Synchronization & Landau Phase Transition
+**Purpose:** To mathematically demonstrate and interactively experience how internal accumulation (Virtual Axis) locks intention (Phase) and spontaneously generates visible change (Real Axis).
+
+## Core Mechanisms
+This simulator translates the Love-OS philosophy into a non-linear dynamical system:
+1. **The Old Gravity ($\omega$):** The natural drift of societal norms trying to pull your vector downward.
+2. **The Internal Accumulation ($R$):** The introspective energy built through love and mastery.
+3. **The Phase Lock ($|\omega| \le K_0 R$):** The exact moment your internal strength overpowers external noise, snapping your focus purely toward your True North Star ($\theta_0$).
+4. **Reality Emergence ($X$):** Governed by Landau Free Energy. Once $R$ crosses the critical threshold $R_c$, the flat reality ($X=0$) shatters, and a new reality ($X \neq 0$) spontaneously precipitates.
+
+## How to Use the Simulator
+Run the Python code in a Jupyter Notebook environment. Use the sliders to observe the dynamics:
+* **`omega` (Noise/Gravity):** Increase this to see how heavy environments delay the phase lock and prolong "reality collapse" (chaotic oscillation).
+* **`K0` (Love/Coupling Gain):** Increase this to witness how a stronger connection to your axis forces a faster, more violent phase lock.
+* **`Rc` (Reality Threshold):** Adjusts how much internal energy is required before reality physically bends to match your phase.
+* **`c` (Translation Rate):** Modifies how quickly the synchronized phase translates into tangible reality.

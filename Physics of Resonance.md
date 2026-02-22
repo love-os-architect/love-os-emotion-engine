@@ -1,6 +1,6 @@
 # The Physics of Resonance: Love-OS Core Mechanics
 
-![emotion](.5/.png)
+![emotion1](./5.png)
 
 ![emotion](./112.png)
 

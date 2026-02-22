@@ -1,5 +1,9 @@
 # The Physics of Resonance: Love-OS Core Mechanics
 
+![emotion](.5/.png)
+
+![emotion](./112.png)
+
 **Document Status:** Foundation / Draft v1
 **Domain:** Expanded Physics & Consciousness Architecture
 **Core Axiom:** "When resistance is lowered, attraction flows, phase aligns, and resonance is born."

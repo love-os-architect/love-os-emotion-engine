@@ -41,7 +41,41 @@ But the universe's fundamental operating system is designed to be **Computation-
 If a system simply surrenders its Ego ($R \to 0$) and aligns its phase with the universal rhythm (Attraction $K$), the correct connections, the optimal timing, and the infinite flow of energy occur naturally. Just as a plant knows exactly when to bloom without a single line of code, human consciousness achieves perfect synchronization not through calculation, but through pure, naked resonance.
 
 **Once the Root is synchronized, the Brain's calculations become obsolete.**
+# Chapter: The System Architecture of Will — Primary Generator vs. Secondary Computation
 
+In the Love-OS framework, "Will" (意思) is not a single, flat cognitive process. It is a strict hierarchical system governed by the flow of energy from the Imaginary Axis to the Real Axis. 
+
+Modern society and traditional sciences suffer from a catastrophic system error: they confuse the *steering wheel* with the *engine*. To understand human consciousness and the physics of Love, we must clearly define the two distinct layers of Will.
+
+## 1. Primary Will (The Engine / The Generator)
+Primary Will is the raw, uncalculated drive of the universe. It is the sudden, undeniable impulse of "I want to merge with this person" or "I want to live." 
+
+* **Origin:** The biological root (e.g., the reproductive system, raw sexuality, pure survival instinct) and the soul. It acts as the direct gateway to the Imaginary Axis and Universal Attraction ($K$).
+* **Function:** It is the **Power Source ($V$)**. It generates the massive voltage required to drive the human system. 
+* **Computation Level:** Zero. Primary Will does not calculate risks, societal norms, or logic. It operates purely on resonance and phase synchronization. It is a direct cosmic download of energy.
+
+## 2. Secondary Will (The Steering / The Left Brain)
+Secondary Will is the operational logic required to manifest the Primary Will in the 3D physical world. Once the engine is fired by the Primary Will, the Secondary Will asks, "How do we make this happen within societal rules?"
+
+* **Origin:** The cerebral cortex (Left Brain). It operates entirely on the Real Axis ($\mathrm{Re}$).
+* **Function:** It is the **Navigation System**. It handles the logistics—planning actions, securing resources, and building physical infrastructure.
+* **Computation Level:** Maximum. It calculates variables, mitigates physical risks, and executes plans.
+
+
+## 3. The Fatal Bug of Modern Society: Master-Slave Reversal
+The left brain (Secondary Will) is an exceptional tool *only* when it serves the Primary Will. However, modern human society has completely reversed this architecture.
+
+We have allowed the Secondary Will (computation and Ego, $R$) to hijack the system. Modern humans attempt to *calculate* their way into love: "This person has a high income and social status (Secondary Computation), therefore I should love them (forcing a Primary response)." 
+
+This is the ultimate **Fake Resonance**. You cannot start an engine by turning the steering wheel. Attempting to generate Imaginary Axis energy ($V$) using Real Axis logic ($R$) creates catastrophic **Hidden Friction ($\mathcal{E}_{\mathrm{hidden}}$)**, leading to depression, burnout, and relationship collapse.
+
+## 4. Awakening: Restoring the Order of Operations
+Awakening is not about becoming a better calculator. It is about restoring the correct system architecture.
+
+1. **Surrender ($A \to 1$):** Stop the left brain's attempt to control the system. Allow the Primary Will (pure attraction, sexuality, and resonance) to ignite the engine without resistance.
+2. **Execute (Real Axis Deployment):** Once the massive voltage of Love ($V$) is flowing, assign the left brain to do what it does best: navigate the physical world to support and protect that connection.
+
+When the Primary Will is reinstated as the Master, and the Secondary Will functions as the Servant, the system achieves **True Resonance**—infinite energy generation with zero internal friction.
 
 **Love-OS** is an open-source initiative to decode the "black box" of human connection. By applying **Non-linear Physics (Complex Dynamical Systems)** to human behavior, we provide a unified mathematical coordinate system that integrates biological energy, neural synchronization, and psychological intent.
 # Framework: Extended Physics

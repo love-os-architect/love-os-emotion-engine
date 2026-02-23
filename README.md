@@ -43,7 +43,7 @@ If a system simply surrenders its Ego ($R \to 0$) and aligns its phase with the 
 **Once the Root is synchronized, the Brain's calculations become obsolete.**
 # Chapter: The System Architecture of Will — Primary Generator vs. Secondary Computation
 
-In the Love-OS framework, "Will" (意思) is not a single, flat cognitive process. It is a strict hierarchical system governed by the flow of energy from the Imaginary Axis to the Real Axis. 
+In the Love-OS framework, "Will"  is not a single, flat cognitive process. It is a strict hierarchical system governed by the flow of energy from the Imaginary Axis to the Real Axis. 
 
 Modern society and traditional sciences suffer from a catastrophic system error: they confuse the *steering wheel* with the *engine*. To understand human consciousness and the physics of Love, we must clearly define the two distinct layers of Will.
 

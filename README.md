@@ -1,5 +1,9 @@
 # Love-OS: Emotion Repository (Refined Dynamics)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status: Alpha](https://img.shields.io/badge/Status-Alpha-blue.svg)]()
+
+
 ## 1. Geometric Definition of Emotion
 In Love-OS, **Emotion** is defined as the projection of the consciousness vector $z$ onto the **Imaginary Axis ($iy$)**.
 
@@ -59,8 +63,7 @@ To maintain the $iy$ component and prevent the vector from collapsing back to th
 # Love-OS: The Grand Unified Model of Consciousness
 ### A Computational Framework bridging Biology, Neuroscience, Psychology, and Philosophy.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Status: Alpha](https://img.shields.io/badge/Status-Alpha-blue.svg)]()
+
 
 # Chapter: The Biological Interface — Why Computation is Obsolete
 

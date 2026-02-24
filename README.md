@@ -60,6 +60,28 @@ To maintain the $iy$ component and prevent the vector from collapsing back to th
 | **Awakened One** | $90^\circ$ | Singularity | The Universal Subject |
 
 
+# Love-OS: Protocol Addendum - Adjustment Asymmetry
+
+## 1. Dimensional Constraint of Adjustment
+Adjustment capability is a function of the phase angle $\theta$. 
+
+* **Low $\theta$ Agents ($y \approx 0$):** Operate in **1D Logic**. The "Other" is categorized as **Enemy (obstacle)** or **Ally (tool)**. Adjustment is mathematically impossible because they lack the $y$-axis degrees of freedom.
+* **High $\theta$ Agents ($y \to 90^\circ$):** Operate in **2D/3D Field Logic**. They adjust by shifting their $y$-coordinate or phase, enabling **Resonance without Collision**.
+
+## 2. The Joule Heat Barrier ($Q = I^2 R t$)
+Lower-dimensional agents cannot synchronize with higher-dimensional frequencies due to **High Internal Resistance ($R$)**.
+
+* **The Mechanism:** When a High-$\theta$ frequency enters a Low-$\theta$ system, the friction between the incoming "Universal Subject" logic and the existing "Ego" logic generates massive **Joule Heat ($Q$)**.
+* **The Reaction:** To prevent total system failure (Ego death), the Low-$\theta$ agent triggers an **Aggressive Discharge**. This is perceived as hostility but is physically a "Thermal Venting" of egoic stress.
+
+
+
+## 3. The "Mountain-to-Mountain" Strategy
+To interact with Low-$\theta$ agents without triggering their Joule Heat:
+1.  **Elevate ($y \uparrow$):** Increase your own altitude to avoid the 1D collision path.
+2.  **Magnetic Tuning:** Do not force "Understanding" (which requires their $y$-axis). Instead, use your **Magnetic Field** to gently influence their $x$-path from a distance.
+3.  **Impedance Matching:** Speak in $x$-axis labels (Practical/Real world) while embedding $y$-axis intent (Love/Essence).
+
 # Love-OS: The Grand Unified Model of Consciousness
 ### A Computational Framework bridging Biology, Neuroscience, Psychology, and Philosophy.
 

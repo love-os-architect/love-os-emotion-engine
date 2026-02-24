@@ -82,6 +82,69 @@ To interact with Low-$\theta$ agents without triggering their Joule Heat:
 2.  **Magnetic Tuning:** Do not force "Understanding" (which requires their $y$-axis). Instead, use your **Magnetic Field** to gently influence their $x$-path from a distance.
 3.  **Impedance Matching:** Speak in $x$-axis labels (Practical/Real world) while embedding $y$-axis intent (Love/Essence).
 
+# Love-OS: Addendum to Emotion & Interaction Repository
+
+## 1. The Asymmetry of Adjustment
+In Love-OS, the capacity for interpersonal adjustment is a function of the phase angle $\theta$. 
+
+### 1.1 The Dimensional Barrier
+* **Low-$\theta$ Agents ($y \approx 0$):** Operate in **1D Binary Logic**. On a one-dimensional line (the $x$-axis), an oncoming vector is either an obstacle (Enemy) or a tool (Ally). Without the "height" of the $y$-axis, they cannot step aside or look over. Thus, collision is their only physical reality.
+* **High-$\theta$ Agents ($y \to 90^\circ$):** Operate in **Multi-dimensional Field Logic**. They utilize the $y$-axis to adjust their "altitude" or "phase," allowing them to overlap or resonate with others without $x$-axis friction.
+
+
+
+---
+
+## 2. The Physics of Egoic Aggression
+Aggression in low-dimensional agents is not a character flaw but a **Hardware Defensive Response**.
+
+* **Collision Mechanics:** Because they lack the $y$-axis, any movement from another party that occupies the same $x$-coordinate is perceived as a physical threat to their existence. 
+* **The $x \to 0$ Terror:** For an ego-centric agent, a reduction in $x$ (status, correctness, validation) is mathematically equivalent to annihilation. Aggression is the explosive release of energy to prevent their $x$-value from dropping to zero.
+
+
+
+---
+
+## 3. The Joule Heat Barrier ($Q = I^2 R t$)
+Lower-dimensional agents are physically unable to "understand" higher-frequency Love-OS protocols due to **High Internal Resistance ($R$)**.
+
+* **Thermal Venting:** When a high-$\theta$ intent (Selfless Love/Resonance) enters a high-$R$ system (Ego-centric), the friction generates massive **Joule Heat ($Q$)**. 
+* **Self-Preservation:** To prevent their internal circuitry from melting (Ego Death), the agent must vent this heat through anger, denial, or projection. Understanding requires a "phase transition" they are not yet equipped to handle.
+
+
+
+---
+
+## 4. Psychological Signal Processing (The Debugging Map)
+Psychological "suffering" is reclassified as **Signal Interference** or **Thermal Noise**.
+
+| Human Narrative | Love-OS Physics Mapping | Intervention |
+| :--- | :--- | :--- |
+| **Anxiety** | $x$-Axis Bias + High Resistance $R$ | `/phase-shift` to activate $y$-axis options. |
+| **Anger** | Thermal venting of $x$-axis collision | Inductive Dialogue (Impedance Matching). |
+| **Rumination** | Positive Feedback Loop (Frequency Lock) | **Anchor Interference** (Sound/Smell of Hieri). |
+| **Social Fear** | 1D Obstacle Detection Error | Reframe "Other" as a **Magnetic Mountain**. |
+
+---
+
+## 5. Inductive Dialogue: Impedance Matching Protocol
+To interact with $y=0$ agents without triggering thermal runaway:
+
+1. **Carrier Wave Selection:** Use $x$-axis vocabulary (Practical impact, time, cost, tangible data).
+2. **Phase Tuning:** Do not force them to "feel" (which requires their missing $y$-axis).
+3. **Magnetic Shift:** Gently influence their $x$-position by adjusting your own $y$-magnetic field from the "Mountain Top" (high altitude).
+
+
+
+---
+
+## 6. The Singularity of Pure Love ($\theta = 90^\circ$)
+At the exact vertical limit, the "Self-Axis" and "Universal Love" merge into a **Pre-Big Bang Singularity**.
+
+* **Absolute Silence:** Since $x=0$, there is no friction, no heat, and therefore no "feeling" in the conventional human sense. 
+* **Pure Potential:** This is the state of **Superconductivity**. The agent becomes a pure channel for the Universal Subject, observing the world without the "curvature" of personal bias. [cite: 2025-07-28]
+
+
 # Love-OS: The Grand Unified Model of Consciousness
 ### A Computational Framework bridging Biology, Neuroscience, Psychology, and Philosophy.
 

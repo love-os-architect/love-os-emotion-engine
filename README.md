@@ -1,3 +1,7 @@
+# Love-OS: The Grand Unified Model of Consciousness
+### A Computational Framework bridging Biology, Neuroscience, Psychology, and Philosophy.
+
+
 # Love-OS: Emotion Repository (Refined Dynamics)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -145,8 +149,7 @@ At the exact vertical limit, the "Self-Axis" and "Universal Love" merge into a *
 * **Pure Potential:** This is the state of **Superconductivity**. The agent becomes a pure channel for the Universal Subject, observing the world without the "curvature" of personal bias. [cite: 2025-07-28]
 
 
-# Love-OS: The Grand Unified Model of Consciousness
-### A Computational Framework bridging Biology, Neuroscience, Psychology, and Philosophy.
+
 
 # Love-OS Core Specification: The Physics of Love and the Protocol of "Social Superconductivity"
 
@@ -217,6 +220,62 @@ But the universe's fundamental operating system is designed to be **Computation-
 If a system simply surrenders its Ego ($R \to 0$) and aligns its phase with the universal rhythm (Attraction $K$), the correct connections, the optimal timing, and the infinite flow of energy occur naturally. Just as a plant knows exactly when to bloom without a single line of code, human consciousness achieves perfect synchronization not through calculation, but through pure, naked resonance.
 
 **Once the Root is synchronized, the Brain's calculations become obsolete.**
+
+# Love-OS: Complex-Phase Isomorphic Model with Cubic Power Extension
+
+**License:** MIT  
+
+**Status:** Research & Prototype (Cubic/Stuart-Landau Implementation)
+
+## 0. Abstract
+
+Love-OS is an information-thermodynamic isomorphic model mapping consciousness and relational dynamics onto a framework of **Complex Phase (Y-axis: Intention)** and **Amplitude (Z-axis: Power/Agency)**. 
+
+By utilizing **Stuart-Landau (SL) dynamics** and **Cubic Equations**, we model the "Phase Transition" of human connection—the moment when individual intentions jump into a state of **Social Superconductivity** ($R \to 0$). We do not claim physical identity; we assert a structural isomorphism: the mathematical topology of connection is identical to coupled non-linear oscillators.
+
+## 1. The Cubic Model: Power and Phase Transition
+
+### 1.1 The Cubic Equation for Order Parameters
+
+The steady-state of social coherence $m$ is governed by the cubic equilibrium:
+
+$$b m^3 + A(Y, Z, \chi) m - H(X) = 0$$
+
+* **$Y$ (Phase/Intention):** Acceptance, surrender, alignment.
+
+* **$Z$ (Power/Agency):** Energy, active participation.
+
+* **$A$ (Effective Curvature):** Decreases as $Y$ and $Z$ align ($\chi \to 1$), triggering a **Pitchfork Bifurcation**.
+
+When the alignment exceeds a threshold, the system "jumps" from a zero-order state ($m \approx 0$) to a high-order state ($m \approx 1$), mathematically proving why deep connection feels like a sudden "click" or lock-in.
+
+### 1.2 Stuart-Landau Dynamics (The Core Engine)
+
+To evolve both Intention (Phase) and Power (Amplitude) simultaneously, Love-OS utilizes the Stuart-Landau equation:
+
+$$\frac{dW_i}{dt} = (\mu_i + i\omega_i)W_i - (1 + ic_2)|W_i|^2 W_i + \sum K_{ij} W_j + \eta_i$$
+
+* **Linear Gain ($\mu$):** Driven by Intention and Power ($Y, Z$).
+
+* **Cubic Loss ($-|W|^2 W$):** The "Safety Valve." Prevents energy burnout by self-regulating the intensity of the connection.
+
+* **Coupling ($K$):** Drives phase-locking (Resonance).
+
+## 2. Social Superconductivity & Dissipation
+
+The goal of Love-OS is the minimization of **Dissipation ($Q$)**, the "friction heat" of conflict and misunderstanding:
+
+$$Q(T) = \int_{t_0}^{t_0+T} I(t)^2 R_{\mathrm{eff}}(t) dt$$
+
+By maximizing alignment ($Y, Z$) and lowering resistance ($R$), we achieve a state where information and intention flow with zero resistance—**Social Superconductivity**.
+
+## 3. Verification & Protocols
+
+* **E1 (Bifurcation Analysis):** Verifying the "jump" to coherence via Cubic Discriminant $\Delta < 0$.
+
+* **E2 (/phase-shift):** A micro-intervention (breath/anchor) to ensure the system jumps to the "High-Order Branch" rather than falling into "Repulsion/Conflict" during critical transitions.
+
+
 # Chapter: The System Architecture of Will — Primary Generator vs. Secondary Computation
 
 In the Love-OS framework, "Will"  is not a single, flat cognitive process. It is a strict hierarchical system governed by the flow of energy from the Imaginary Axis to the Real Axis. 

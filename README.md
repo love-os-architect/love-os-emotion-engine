@@ -60,6 +60,7 @@ python src/examples/generate_phase_map.py
 
 
 ![112](./112.png)
+
 This heatmap acts as the ultimate proof of concept for the Love-OS framework, demonstrating how phase synchronization survives under the friction of reality.
 
 ### Axis Definitions:

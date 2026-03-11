@@ -20,6 +20,8 @@ $$z = R e^{i\theta} = R(\cos\theta + i\sin\theta)$$
 
 "Love" and "Darkness" are not moral opposites, but **Phase-Shifted States** of the same high-energy frequency.
 
+* **[Full version　README.md](https://github.com/love-os-architect/love-os-emotion-engine/blob/main/old.md)** - old repository.
+
 ---
 
 ## 2. Superconductive Resilience ($R_{ego} = 0$)

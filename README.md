@@ -61,7 +61,7 @@ python src/examples/generate_phase_map.py
 ## 📊 Understanding the Love-OS Phase Map
 
 
-![112](./112.png)
+![1234](./1234.png)
 
 This heatmap acts as the ultimate proof of concept for the Love-OS framework, demonstrating how phase synchronization survives under the friction of reality.
 

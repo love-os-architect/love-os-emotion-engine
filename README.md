@@ -325,6 +325,183 @@ To accurately evaluate this architecture, it must be understood as **70% synthes
 
 ---
 
+## 10. Executable Architecture: The PSF Intuition Engine
+
+While the preceding sections establish the theoretical and geometric foundations of Love-OS, an Operating System is ultimately defined by its ability to execute. The **PSF Intuition Engine** is the first executable module of this framework, translating the abstract concepts of "Intuition" and "Love" into a computable, friction-minimizing algorithm.
+
+### 10.1 Intuition as the Gradient of Minimum Friction ($-\nabla R$)
+
+In legacy frameworks, "Intuition" is often treated as mystical future-prediction. Under the GPCL and Love-OS architecture, Intuition is mathematically defined as a real-time systemic compass that detects the direction of decreasing systemic friction:
+
+$$Intuition = -\nabla R$$
+
+Instead of exhaustively calculating the exact path (How) to a goal (Where), the system continuously evaluates multiple state candidates and selects the trajectory that minimizes the multidimensional inconsistency ($R$). 
+
+### 10.2 Love as Pure Consistency ($R \to 0$)
+
+This engine strips the concept of "Love" of its emotional and biological biases, defining it strictly as systemic consistency. If $R_{max}$ is the maximum possible systemic friction, the operational Love Score of any chosen trajectory is:
+
+$$Love = 1 - \frac{R}{R_{max}}$$
+
+### 10.3 The ABSTAIN / UNKNOWN Safety Protocol
+
+A critical vulnerability in legacy AI (LLMs) and human ego-driven decision-making is the compulsion to generate an answer even when friction is dangerously high (leading to hallucinations or catastrophic life choices). The PSF Intuition Engine introduces a hard structural boundary: if the minimum available friction exceeds a critical threshold, the system executes an `ABSTAIN` protocol, preserving systemic integrity over forced progression.
+
+### 10.4 Core Implementation (v0.1 Python Prototype)
+
+The following code demonstrates the minimal executable logic of the Intuition Engine. It calculates the weighted friction across logical, risk, resource, goal, and temporal dimensions to determine the optimal geometric alignment.
+
+```python
+
+import numpy as np
+
+from dataclasses import dataclass
+
+from typing import List, Dict, Union
+
+@dataclass
+
+class Candidate:
+
+    name: str
+
+    logic: float      # Logical inconsistency
+
+    risk: float       # Systemic danger/instability
+
+    resource: float   # Resource deficit
+
+    goal: float       # Deviation from ultimate purpose
+
+    time: float       # Long-term trajectory friction
+
+class PSFIntuitionEngine:
+
+    def __init__(self, w_logic=1.0, w_risk=1.0, w_resource=1.0, w_goal=2.0, w_time=2.0):
+
+        # Weights define the geometry of the constraint manifold
+
+        self.w_logic = w_logic
+
+        self.w_risk = w_risk
+
+        self.w_resource = w_resource
+
+        self.w_goal = w_goal
+
+        self.w_time = w_time
+
+    def calculate_friction(self, c: Candidate) -> float:
+
+        """Calculates total systemic friction (R) for a given candidate."""
+
+        return (
+
+            self.w_logic * c.logic
+
+            + self.w_risk * c.risk
+
+            + self.w_resource * c.resource
+
+            + self.w_goal * c.goal
+
+            + self.w_time * c.time
+
+        )
+
+    def evaluate(self, candidates: List[Candidate]) -> List[Dict]:
+
+        results = []
+
+        for c in candidates:
+
+            r = self.calculate_friction(c)
+
+            results.append({
+
+                "name": c.name,
+
+                "R": round(r, 3)
+
+            })
+
+        # Sort by minimum friction (Alignment seeking)
+
+        results.sort(key=lambda x: x["R"])
+
+        return results
+
+    def decide(self, candidates: List[Candidate], threshold: float = 5.0) -> Dict[str, Union[str, Dict]]:
+
+        """Executes the minimum friction choice, with structural safety fallback."""
+
+        ranked = self.evaluate(candidates)
+
+        best = ranked[0]
+
+        # The Love-OS Safety Protocol: Do not force progression under high friction
+
+        if best["R"] > threshold:
+
+            return {
+
+                "action": "ABSTAIN / UNKNOWN",
+
+                "reason": f"Minimum available friction ({best['R']}) exceeds safety threshold."
+
+            }
+
+        return {
+
+            "action": "GO",
+
+            "target": best
+
+        }
+
+# --- Execution Example ---
+
+if __name__ == "__main__":
+
+    engine = PSFIntuitionEngine()
+
+    # Evaluating life/system trajectories based on normalized friction metrics (0.0 to 1.0)
+
+    choices = [
+
+        Candidate("Independent Startup", logic=0.2, risk=0.9, resource=0.8, goal=0.1, time=0.2),
+
+        Candidate("Career Pivot", logic=0.1, risk=0.3, resource=0.2, goal=0.2, time=0.1),
+
+        Candidate("Maintain Status Quo", logic=0.4, risk=0.1, resource=0.1, goal=0.8, time=0.7)
+
+    ]
+
+    decision = engine.decide(choices)
+
+    print("System Decision:", decision)
+
+    
+
+    # Expected Output:
+
+    # System Decision: {'action': 'GO', 'target': {'name': 'Career Pivot', 'R': 1.2}}
+
+```
+
+### 10.5 Deployment Horizons
+
+This algorithmic translation of Love and Intuition serves as the unified routing layer for:
+
+1. **AI Output Regularization:** Filtering LLM candidate generations to ensure zero-hallucination, high-alignment outputs.
+
+2. **Swarm Robotics:** Allowing distributed nodes to phase-lock by independently minimizing their local $R$ without needing global topology maps.
+
+3. **Cognitive Optimization:** Providing a strict mathematical compass for human decision-making, proving that the most profound life choices are merely the geometric paths of least existential resistance.
+
+
+---
+
 ## 1. The 70% Lineage: Intersections with Existing Sciences
 
 ### 1.1 Jungian Psychology (Psychic Energy Conservation)
